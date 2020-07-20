@@ -18,5 +18,19 @@ var aboutMe = {
 
     delete aboutMe.Occupation // true
 
-    // Exercise 4
-    
+    // Exercise 5
+var namesAndHobbies = {
+    elie: "JavaScript",
+    matt: "jogging",
+    janey: "table building",
+    tim: "sailing"
+}
+console.log(namesAndHobbies.elie + " => " + "ellie")   //  JavaScript => ellie
+
+   // Exercise 6
+   namesAndHobbies.Olabode = "coding"
+
+   // Exercise 7
+   if ("Olabode" in namesAndHobbies){
+    console.log("Olabode: " + namesAndHobbies.Olabode)
+}                                                       // Olabode: coding
